@@ -85,6 +85,11 @@ module.exports = deviceRoutes;
 
 /*
     Usage in other files
+    // import
+    const deviceRoutes = require('./routes/api/deviceRoutes');
+
+    let app = express();
     
     app.use('/devices', deviceRoutes);
+
 */
